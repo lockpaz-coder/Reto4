@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería Deportiva</title>
+
+    <!-- Vinculación con CSS -->
+     <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+
+    <h1>Galería de Indumentaria Deportiva</h1>
+
+    <!-- CONTENEDOR DE LA GALERÍA -->
+     <div class="gallery">
+
+        <img src="images/deportiva1.jpg"  class="gallery-item" alt="Zapatos deportivos" data-title="Adidas F50">
+        <img src="images/deportiva2.jpg"  class="gallery-item" alt="Zapatos deportivos" data-title="Adidas Mercuri verde">
+        <img src="images/deportiva3.jpg"  class="gallery-item" alt="Zapatos deportivos" data-title="Adidas Mercuri oscuras">
+        <img src="images/deportiva4.jpg"  class="gallery-item" alt="Zapatos deportivos" data-title="CR7">
+        <img src="images/deportiva5.jpg"  class="gallery-item" alt="Zapatos deportivos" data-title="Nike Total90">
+        <img src="images/deportiva6.jpg"  class="gallery-item" alt="Zapatos deportivos" data-title="Ronaldinho Doradas">
+
+     </div>
+
+     <!-- MODAL LIGHTBOX -->
+      <div id="modal" class="modal">
+
+        <!-- Botón cerrar -->
+         <span class="close">&times;</span>
+
+         <!-- Botón anterior -->
+         <button class="prev">&#10094;</button>
+
+         <!-- Imagen ampliada -->
+          <div class="modal-container">
+
+            <img id="modalImage" class="modal-content">
+            <h3 id="modalTitle"></h3>
+
+          </div>
+                        
+          <!-- Botón siguiente -->
+           <button class="next">&#10095</button>
+      </div>
+
+
+        
+      <!-- Vinculación con JS -->
+       <script src="script.js"></script>
+       
+</body>
+</html>
